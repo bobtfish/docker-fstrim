@@ -17,7 +17,7 @@ If you don't trust me, and prefer to extract the `fstrim` binary,
 rather than allowing my container to potentially wreak havoc into
 your system's `$PATH`, you can also do this:
 
-    docker run --rm bobtfish/fstrim cat /fstrim > /tmp/nsenter
+    docker run --rm bobtfish/fstrim cat /fstrim > /tmp/fstrim
 
 Then do whatever you want with the binary in `/tmp/fstrim`.
 
